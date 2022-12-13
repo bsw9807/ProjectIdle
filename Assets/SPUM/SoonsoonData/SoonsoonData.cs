@@ -24,7 +24,6 @@ public class SoonsoonData
 
     private SoonsoonData(){}
 
-
     [Serializable]
     public class SoonData
     {
@@ -32,6 +31,8 @@ public class SoonsoonData
     }
 
     public SoonData _soonData2 = new SoonData();
+
+    public SA_Manager _sAManager;
 
     public SPUM_Manager _spumManager;
     public bool _gifAlphaTrigger; // for using gif trigger at Soonsoon Exporter.
